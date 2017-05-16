@@ -1,0 +1,9 @@
+<div id="growl-container" class="ember-growl-container"></div>
+
+{{#each notifications as |notification|}}
+  {{#ember-growl-notification}}
+    {{#ember-growl-notification-item-box close=(action 'dismissNotification' notification)}}
+      {{notification.message}}
+    {{/ember-growl-notification-item-box}}
+  {{/ember-growl-notification}}
+{{/each}}
