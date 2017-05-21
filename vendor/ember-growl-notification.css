@@ -37,6 +37,21 @@
  }
 }
 
+.ember-growl-notification-item-container.ready-to-close {
+  animation-duration: 0.5s;
+  animation-name: readytoclose;
+  animation-timing-function: ease-in;
+}
+
+@keyframes readytoclose {
+ from {
+   margin-right : initial;
+ }
+ to {
+   margin-right : -500px;
+ }
+}
+
 .ember-growl-notification-item-box {
   margin: 10px;
 }
