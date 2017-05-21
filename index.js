@@ -3,6 +3,7 @@
 
 module.exports = {
   name: 'ember-growl-notification',
+
   included: function(app) {
     this._super.included(app);
 
