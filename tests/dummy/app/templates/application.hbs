@@ -1,6 +1,16 @@
 {{!-- The following component displays Ember's default welcome message. --}}
 {{welcome-page}}
 {{!-- Feel free to remove this! --}}
+
 {{ember-growl-notification-placeholder}}
+{{!-- #ember-growl-notification-placeholder as |notification close|}}
+  <div>
+    This is it!
+    <br>
+    {{notification.message}}
+    <br>
+    <button onclick={{action close}}>Close</button>
+  </div>
+{{/ember-growl-notification-placeholder--}}
 
 {{outlet}}

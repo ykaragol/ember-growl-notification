@@ -1,7 +1,7 @@
 {
   "name": "ember-growl-notification",
-  "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.2.0",
+  "description": "Growl Addon for Ember projects.",
   "keywords": [
     "ember-addon"
   ],

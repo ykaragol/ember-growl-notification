@@ -4,6 +4,6 @@ export default Ember.Controller.extend({
   emberGrowlService: Ember.inject.service(),
 
   init(){
-    this.get('emberGrowlService').showNotification('Merhaba');
+    this.get('emberGrowlService').showNotification({message:'Merhaba'});
   }
 });

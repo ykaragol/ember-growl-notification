@@ -1,6 +1,5 @@
 import Ember from 'ember';
-import layout from '../templates/components/ember-growl-notification-item-box';
-
+import layout from '../templates/components/ember-growl-notification-item';
 
 
 export default Ember.Component.extend({
