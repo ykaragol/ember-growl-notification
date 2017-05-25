@@ -59,11 +59,11 @@
  }
 }
 
-.ember-growl-notification-item-box {
+.ember-growl-notification-item {
   margin: 10px;
 }
 
-.ember-growl-notification-item-box-close {
+.ember-growl-notification-item-close {
   right: 5px;
   top: 0px;
   position: absolute;
@@ -71,7 +71,7 @@
   cursor: pointer;
 }
 
-.ember-growl-notification-item-box-time-to-die-container{
+.ember-growl-notification-item-time-to-die-container{
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -80,7 +80,7 @@
   border-radius: 4px;
 }
 
-.ember-growl-notification-item-box-time-to-die {
+.ember-growl-notification-item-time-to-die {
   height: 5px;
   bottom: 0px;
   left: 0px;
@@ -102,7 +102,7 @@
   }
 }
 
-.ember-growl-notification-item-container:hover .ember-growl-notification-item-box-time-to-die{
+.ember-growl-notification-item-container:hover .ember-growl-notification-item-time-to-die{
   width:100%;
 
   animation-name: getbigger;
