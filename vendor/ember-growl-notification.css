@@ -23,6 +23,8 @@
   background-image: linear-gradient(135deg, rgb(220, 255, 218) 0px, rgb(111, 255, 109) 100%);
   opacity: 0.7;
 
+  overflow: hidden;
+
   animation-duration: 1s;
   animation-name: entertoscreen;
   animation-timing-function: ease-in;
@@ -30,25 +32,30 @@
 
 @keyframes entertoscreen {
  from {
-   margin-top : -100px;
+   max-height: 0;
  }
  to {
-   margin-top : inherit;
+   max-height: 1000px;
  }
 }
 
 .ember-growl-notification-item-container.ready-to-close {
   animation-duration: 0.5s;
   animation-name: readytoclose;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
 }
 
 @keyframes readytoclose {
- from {
-   margin-right : initial;
+ 0% {
+   right : 0px;
  }
- to {
-   margin-right : -500px;
+ 50% {
+   right : -100%;
+   max-height: 300px;
+ }
+ 100% {
+   right : -100%;
+   max-height: 0;
  }
 }
 
