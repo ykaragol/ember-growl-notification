@@ -8,7 +8,7 @@ export default Ember.Component.extend({
   readyToClose:false,
 
   didRender(){
-    let animator = this.element.querySelector(".ember-growl-notification-item-box-time-to-die");
+    let animator = this.element.querySelector(".ember-growl-notification-item-time-to-die");
     animator.addEventListener("animationend", (event)=>{
       if(event.animationName==='getsmaller'){
         this.set('readyToClose', true);
