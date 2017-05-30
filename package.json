@@ -1,6 +1,6 @@
 {
   "name": "ember-growl-notification",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Growl Addon for Ember projects.",
   "keywords": [
     "ember-addon"

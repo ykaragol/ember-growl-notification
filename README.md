@@ -8,6 +8,8 @@ Just put `{{ember-growl-notification-placeholder}}` to your `application.hbs`.
 
 And call `ember-growl-service`s `showNotification(notification)` method.
 
+[Sample Demo](https://ember-twiddle.com/dd37b092edace8124b0ce2f3489650e6?openFiles=templates.application.hbs%2Ctemplates.components.dummy-component.hbs) from Twiddle
+
 ### showNotification parameters:
   - message: string to be displayed
   - type: should either `success`, `error` or `info` to apply corresponding styles. 
