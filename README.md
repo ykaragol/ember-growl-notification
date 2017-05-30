@@ -1,27 +1,20 @@
 # ember-growl-notification
 
-This README outlines the details of collaborating on this Ember addon.
+Ember-cli addon to create growl like components.
 
-## Installation
+# Simple Usage
 
-* `git clone <repository-url>` this repository
-* `cd ember-growl-notification`
-* `npm install`
-* `bower install`
+Just put `ember-growl-notification-placeholder` to your `application.hbs` as the following:
+ ```
+ {{ember-growl-notification-placeholder}}
+ ```
+And call `ember-growl-service`s `showNotification(notification)` method.
 
-## Running
+# Contextual Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Running Tests
+# In-Place Usage
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
 
-## Building
+# Predefined Types
 
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
