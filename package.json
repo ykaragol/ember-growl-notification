@@ -6,7 +6,7 @@
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "https://github.com/ykaragol/ember-growl-notification.git",
   "directories": {
     "doc": "doc",
     "test": "tests"
