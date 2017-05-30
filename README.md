@@ -33,7 +33,7 @@ With the contextual usage of `{{ember-growl-notification-placeholder}}`, you can
 
 ## In-Place Usage
 
-If you want to create a very customized message in a template. You can use `{{ember-growl-notification}` component. 
+If you want to create a very customized message in a template. You can use `{{ember-growl-notification}}` component. 
  
  ```
    {{#if isShown}}
