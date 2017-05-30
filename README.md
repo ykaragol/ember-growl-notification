@@ -2,7 +2,7 @@
 
 Ember-cli addon to create growl like components.
 
-# Simple Usage
+## Simple Usage
 
 Just put `{{ember-growl-notification-placeholder}}` to your `application.hbs`.
 
@@ -14,7 +14,7 @@ And call `ember-growl-service`s `showNotification(notification)` method.
   - message: string to be displayed
   - type: should either `success`, `error` or `info` to apply corresponding styles. 
 
-# Changing the view of items
+## Changing the view of items
 
 With contextual usage of `{{ember-growl-notification-placeholder}}`, you can easily modify the view of the items.
 
@@ -31,7 +31,7 @@ With contextual usage of `{{ember-growl-notification-placeholder}}`, you can eas
 ```
 
 
-# In-Place Usage
+## In-Place Usage
 
 If you want to create a very customized message in a template. You can use `{{ember-growl-notification}` component. 
  
@@ -43,7 +43,7 @@ If you want to create a very customized message in a template. You can use `{{em
 	 {{/if}}
  ```
 
-# Defining New Types
+## Defining New Types
 
 Predefined types are: `success`, `info` and `error`. Add relevant styles as following:
  ```
@@ -65,3 +65,9 @@ Predefined types are: `success`, `info` and `error`. Add relevant styles as foll
  }
  ```
  
+## Roadmap to 1.0.0
+
+- [x] Prepare the readme file
+- [ ] Add meaningful tests
+- [ ] Setup the CI environment
+- [ ] Create a demo app
