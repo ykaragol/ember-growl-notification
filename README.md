@@ -16,7 +16,7 @@ And call `ember-growl-service`s `showNotification(notification)` method.
 
 ## Changing the view of items
 
-With contextual usage of `{{ember-growl-notification-placeholder}}`, you can easily modify the view of the items.
+With the contextual usage of `{{ember-growl-notification-placeholder}}`, you can easily modify the view of the items.
 
 ```
 {{#ember-growl-notification-placeholder as |notification close|}}
