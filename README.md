@@ -12,13 +12,13 @@ And call `ember-growl-service`s `showNotification(notification)` method.
 
 ### showNotification parameters:
   - message: string to be displayed
-  - type: should either `success`, `error` or `info` to apply corresponding styles. 
+  - type: should be either `success`, `error` or `info` to apply corresponding styles. 
 
 ## Changing the view of items
 
 With the contextual usage of `{{ember-growl-notification-placeholder}}`, you can easily modify the view of the items.
 
-```
+```hbs
 {{#ember-growl-notification-placeholder as |notification close|}}
   <div>
     This is it!
@@ -35,7 +35,7 @@ With the contextual usage of `{{ember-growl-notification-placeholder}}`, you can
 
 If you want to create a very customized message in a template. You can use `{{ember-growl-notification}}` component. 
  
- ```
+ ```hbs
    {{#if isShown}}
 	   {{#ember-growl-notification}}
 	      My funny message!
@@ -46,7 +46,7 @@ If you want to create a very customized message in a template. You can use `{{em
 ## Defining New Types
 
 Predefined types are: `success`, `info` and `error`. Add relevant styles as following:
- ```
+ ```css
  /* new type: 'warning' */
  .ember-growl-notification-warning {
    border: 1px solid rgb(1, 6, 216);
