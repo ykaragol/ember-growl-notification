@@ -12,24 +12,25 @@ export default Ember.Component.extend({
     return 'ember-growl-notification-'+type;
   }),
 
-  didRender(){
-    let animator = this.element.querySelector(".ember-growl-notification-item-time-to-die");
-    animator.addEventListener("animationend", (event)=>{
-      if(event.animationName==='getsmaller'){
-        this.set('readyToClose', true);
-      }
-    }, false);
-
+  prepareToClose(){
     this.element.addEventListener("animationend", (event)=>{
       if(event.animationName==='readytoclose'){
-        this.get('close')();
+        this.fireClose();
       }
     }, false);
+    this.set('readyToClose', true);    
+  },
+
+  fireClose(){
+    this.get('close')();
   },
 
   actions:{
     close:function(){
-      this.get('close')();
+      this.prepareToClose();
+    },
+    timedOut:function(){
+      this.prepareToClose();
     }
   }
 });

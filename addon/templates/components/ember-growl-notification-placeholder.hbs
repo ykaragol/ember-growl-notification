@@ -5,7 +5,9 @@
     {{#if hasBlock}}
       {{yield notification (action 'dismissNotification' notification)}}
     {{else}}
-      {{#ember-growl-notification-item type=notification.type close=(action 'dismissNotification' notification)}}
+      {{#ember-growl-notification-item type=notification.type 
+            close=(action 'dismissNotification' notification)
+            timeout=notification.timeout}}
         {{notification.message}}
       {{/ember-growl-notification-item}}
     {{/if}}

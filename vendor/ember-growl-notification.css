@@ -80,7 +80,7 @@
   border-radius: inherit;
 
   width:0%;
-  animation-duration: 6s;
+  animation-duration: 10s;
   animation-name: getsmaller;
   animation-timing-function: linear;
 }
