@@ -18,6 +18,6 @@ export default Ember.Component.extend({
 
   didRender(){
     let timeout = this.get('timeout') || DEFAULT_TIMEOUT;
-    Ember.run.later(this, this.triggerTimedOut, timeout);
+    Ember.run.later(this, this.triggerTimedOut, timeout*1000);
   }
 });
