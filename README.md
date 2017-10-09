@@ -68,6 +68,6 @@ Predefined types are: `success`, `info` and `error`. Add relevant styles as foll
 ## Roadmap to 1.0.0
 
 - [x] Prepare the readme file
-- [ ] Add meaningful tests
-- [ ] Setup the CI environment
-- [ ] Create a demo app
+- [x] Add meaningful tests
+- [x] Setup the CI environment
+- [ ] ~~Create a demo app~~
