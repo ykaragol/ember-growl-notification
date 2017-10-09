@@ -13,6 +13,7 @@ And call `ember-growl-service`s `showNotification(notification)` method.
 ### showNotification parameters:
   - message: string to be displayed
   - type: should be either `success`, `error` or `info` to apply corresponding styles. 
+  - timeout: display timeout in seconds.
 
 ## Changing the view of items
 
