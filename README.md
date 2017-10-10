@@ -6,7 +6,6 @@
 [![Ember Observer Score](http://emberobserver.com/badges/ember-growl-notification.svg)](http://emberobserver.com/addons/ember-growl-notification)
 [![Dependency Status](https://david-dm.org/ykaragol/ember-growl-notification.svg)](https://david-dm.org/ykaragol/ember-growl-notification)
 [![devDependency Status](https://david-dm.org/ykaragol/ember-growl-notification/dev-status.svg)](https://david-dm.org/ykaragol/ember-growl-notification#info=devDependencies)
-[![Code Climate](https://codeclimate.com/github/ykaragol/ember-growl-notification/badges/gpa.svg)](https://codeclimate.com/github/ykaragol/ember-growl-notification)
 
 Ember-cli addon to create growl like components.
 
