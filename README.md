@@ -38,10 +38,10 @@ If you want to create a very customized message in a template. You can use `{{em
  
  ```hbs
    {{#if isShown}}
-	   {{#ember-growl-notification}}
-	      My funny message!
-	   {{/ember-growl-notification}}
-	 {{/if}}
+      {{#ember-growl-notification}}
+         My funny message!
+      {{/ember-growl-notification}}
+   {{/if}}
  ```
 
 ## Defining New Types
