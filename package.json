@@ -11,7 +11,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/ykaragol/ember-growl-notification",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
