@@ -6,7 +6,7 @@
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "https://github.com/ykaragol,
+  "author": "https://github.com/ykaragol",
   "directories": {
     "doc": "doc",
     "test": "tests"
