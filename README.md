@@ -78,4 +78,4 @@ Predefined types are: `success`, `info` and `error`. Add relevant styles as foll
 - [x] Prepare the readme file
 - [x] Add meaningful tests
 - [x] Setup the CI environment
-- [ ] ~~Create a demo app~~
+- [ ] ~~Create a demo app~~ Create twiddles
