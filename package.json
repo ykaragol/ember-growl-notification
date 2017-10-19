@@ -1,12 +1,12 @@
 {
   "name": "ember-growl-notification",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Growl Addon for Ember projects.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "https://github.com/ykaragol/ember-growl-notification.git",
+  "author": "https://github.com/ykaragol,
   "directories": {
     "doc": "doc",
     "test": "tests"
