@@ -15,7 +15,7 @@ Just put `{{ember-growl-notification-placeholder}}` to your `application.hbs`.
 
 And call `ember-growl-service`s `showNotification(notification)` method.
 
-[Sample Demo](https://ember-twiddle.com/dd37b092edace8124b0ce2f3489650e6?openFiles=templates.application.hbs%2Ctemplates.components.dummy-component.hbs) from Twiddle
+[Sample Demo](https://ember-twiddle.com/0a8bb3d5fe0b2e36e9be1771ce0dc78b?openFiles=templates.components.growl-demo-component.hbs%2C) from Twiddle
 
 ### showNotification parameters:
   - message: string to be displayed
